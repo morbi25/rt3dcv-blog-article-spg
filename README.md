@@ -20,7 +20,7 @@ Have you ever thought about why we often train and evaluate neural networks on s
 ### **Statistical normalization**
 [[2]](#2) is the first published study targeting UDA for 3D LiDAR detection. The authors propose to normalize the objects' size of the source domain leveraging the objects' statistics of the target domain to close the size-level domain gap. So they shrink or enlarge the objects' bounding box and the enclosed point cloud in the source domain, as shown in figure 1.
 
-<center><img src="resources/sn.png" width=500></center>
+<center><img src="resources/sn.png" width=300></center>
 <center>Figure 1: The key idea of statistical normalization</center>
 <br>
 
