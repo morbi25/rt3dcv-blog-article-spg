@@ -32,7 +32,7 @@ Instead of transforming 3D point clouds by normalizing their size across domains
 <br>
 
 ### **Problems with previous approaches**
-Previous methods that can be applied to point clouds containing foreground and background regions either use information not available in practice during inference (Statistical normalization) or are limited in recovering very partially observed 3D objects (PU-GAN). Therefore, the authors propose SPG, one of the first learning-based models that targets UDA for 3D point cloud detection by faithfully recovering the foreground regions suffering from missing LiDAR points [[1]](#1).
+Previous methods that can be applied to point clouds containing foreground and background regions either use information not available in practice during inference (statistical normalization) or are limited in recovering very partially observed 3D objects (PU-GAN). Therefore, the authors propose SPG, one of the first learning-based models that targets UDA for 3D point cloud detection by faithfully recovering the foreground regions suffering from missing LiDAR points [[1]](#1).
 
 <br>
 
@@ -60,7 +60,7 @@ As shown in figure 4, SPG consists of one branch (at the bottom) to generate the
 
 #### **Semantic point prediction**
 ##### **1. Voxelization:**
-As input, both branches get a raw 3D point cloud from either the source domain during training or the target domain during inference. This point cloud is voxelized and fed into the voxel feature encoding module.
+As input, both branches get a raw 3D point cloud from either the source domain during training or the target domain during inference. This point cloud is voxelized and fed into the Voxel Feature Encoding module.
 
 
 ##### **2. Voxel Feature Encoding module:**
