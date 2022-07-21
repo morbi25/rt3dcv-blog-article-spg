@@ -32,7 +32,7 @@ Instead of transforming 3D point clouds by normalizing their size across domains
 <br>
 
 ### **Problems with previous approaches**
-Previous methods that can be applied to point clouds, including foreground and background regions, either use information not available in practice during inference (Statistical normalization) or are limited in recovering very partially observed 3D objects (PU-GAN). Therefore, the authors propose SPG, one of the first learning-based models that targets UDA for 3D point cloud detection by faithfully recovering the foreground regions suffering from missing LiDAR points [[1]](#1).
+Previous methods that can be applied to point clouds containing foreground and background regions either use information not available in practice during inference (Statistical normalization) or are limited in recovering very partially observed 3D objects (PU-GAN). Therefore, the authors propose SPG, one of the first learning-based models that targets UDA for 3D point cloud detection by faithfully recovering the foreground regions suffering from missing LiDAR points [[1]](#1).
 
 <br>
 
