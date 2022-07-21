@@ -80,7 +80,7 @@ The Voxel Feature Encoding (VFE) module consists of two different models. One pa
 
 
 ##### **3. Information propagation module:**
-The information propagation module propagates the previously generated features of the occupied pillars (dark green in figure 5 after step 3) to the neighboring empty pillars (light green) using a series of CNNs. This enables SPG to recover the foreground regions in the empty space.
+The information propagation module propagates the previously generated features of the occupied pillars (dark green in figure 4 after step 3) to the neighboring empty pillars (light green) using a series of CNNs. This enables SPG to recover the foreground regions in the empty space.
 
 
 ##### **4. Point generation module**
