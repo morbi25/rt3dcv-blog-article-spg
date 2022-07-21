@@ -167,7 +167,6 @@ The authors evaluate their model on two different tasks using two different data
 | --- | ---:|
 | Unsupervised Domain Adaptation for 3D object detection | Waymo Domain Adaptation Dataset [[1]](#1)[[6]](#6)
 | General 3D object detection | KITTI 3D object detection benchmark [[7]](#7)
-| | |
 
 </center>
 <center>Table 1: Tasks and datasets</center>
